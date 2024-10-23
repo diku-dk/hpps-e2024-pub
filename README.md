@@ -26,10 +26,11 @@ mandatory assignments.
 
 **This course website** is used for handing out material.
 
-**Discord** can be used for asking questions. (Invite link TBA). You
-are not *required* or *expected* to use Discord. We continue to
-monitor the Absalon discussion forum, and course announcements are
-posted solely on Absalon.
+**Discord** can be used for asking questions. ([Invite
+link](https://discord.gg/CDDZCfx8zz)). You are not *required* or
+*expected* to use Discord. We continue to monitor the Absalon
+discussion forum, and course announcements are posted solely on
+Absalon.
 
 **Absalon** is used for handing in assignments and for course
 announcements.
@@ -47,6 +48,10 @@ The textbooks are as follows:
 
 ## Schedule
 
+Ignore the official class grouping made by KU. Go to whichever class
+you prefer. Note that Class 4 has the largest and nicest room, and
+will have two TAs available.
+
 ### Tuesday
 
 * **Lecture:** 10:00-12:00 (Aud 03, HCØ).
@@ -61,17 +66,18 @@ The textbooks are as follows:
 
 Exercises are held in the following four classrooms.
 
-* **Class 1:** *10:00-12:00*, 1-0-10 (DIKU), *15:00-17:00*: 1-0-10 (DIKU)
+* **Class 1:** *10:00-12:00*, 1-0-10 (DIKU), *15:00-17:00*: 1-0-10 (DIKU). TA: TBD
 
-* **Class 2:** *10:00-12:00*, 1-0-14 (DIKU), *15:00-17:00*: 1-0-14 (DIKU)
+* **Class 2:** *10:00-12:00*, 1-0-14 (DIKU), *15:00-17:00*: 1-0-14 (DIKU). TA: TBD
 
-* **Class 3:** *10:00-12:00*, 4-0-10 (Biocenter), *15:00-17:00*: 4-0-10 (Biocenter).
+* **Class 3:** *10:00-12:00*, 4-0-10 (Biocenter), *15:00-17:00*: 4-0-10 (Biocenter). TA: TBD.
 
-* **Class 4:** *10:00-12:00*, Auditorium Syd (NEXS), *15:00-17:00*: Auditorium Syd (NEXS).
+* **Class 4:** *10:00-12:00*, Auditorium Syd (NEXS), *15:00-17:00*:
+  Auditorium Syd (NEXS). TA: TBD.
 
 ### Friday
 
-* **Assignment café** 13:00-15:00 (room TBD).
+* **Assignment café** 13:00-15:00 (Lille UP-1).
 
 ## Assignments
 
@@ -126,6 +132,44 @@ material and ideas.
 
 * **Handin deadline:** 12/1
 
+### General assignment rules
+
+The following rules apply to all assignments. They are intended to
+ease our correction process, and in particular to allow automated
+testing. Consider the assignments to be a specification or API that
+you are asked to implement.
+
+1. Do not modify the types of any definitions in the handout, except
+   when the assignment text explicitly instructs you to do so.
+
+2. Do not rename or remove any definitions that are present in the
+   handout, except when the assignment text explicitly instructs you
+   to do so.
+
+3. Do not remove anything from header files.
+
+4. Do not rename files or otherwise modify the file tree. (You may add
+   new files if you wish, although it is rarely necessary.)
+
+5. Your code should compile without warnings. (Do not achieve this by
+   disabling warnings.)
+
+6. When handing in, you must hand in a complete workable program
+   (including unmodified files from the handout).
+
+7. When handing in, do not include temporary build files (such as
+   `.o`), editor backup files, or various other computer detritus. Run
+   e.g. the `tree` command and read the file listing and ponder for
+   each file whether it is something it makes sense to hand to your
+   TA. At a *minimum*, run `make clean` before handing in.
+
+8. Your zip file, should contain a single top-level folder with an
+   appropriate name (e.g. `handin`).
+
+Violation of these rules will result in points deductions. If you
+violate these rules at the exam, it will negatively influence your
+grade.
+
 ## Study café
 
 Every Friday in from 13:00-15:00 you can attend the assignment café to
@@ -159,7 +203,13 @@ The teachers are
 * Troels Henriksen <athas@sigkill.dk>
 * David Gray Marchant <david.marchant@di.ku.dk>
 
-The TAs are TBA.
+The TAs are:
+
+* Rasmus Pallisgaard <rpa@di.ku.dk>
+* Alexander Juel Vind <avji@di.ku.dk>
+* Michael Angell Ghandforoush <mgh@di.ku.dk>
+* Carl August Gjerris Hartmann <cgha@di.ku.dk>
+* Carl Christian Ottesen <ccot@di.ku.dk>
 
 ## Exam
 
