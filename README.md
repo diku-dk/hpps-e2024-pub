@@ -80,12 +80,13 @@ Exercises are held in the following four classrooms.
 
 ## Assignments
 
-There are 6 assignment in total during the course with deadlines
-roughly every week. They overlap slightly to allow for more
-flexibility in your scheduling, but think of them as weekly
-assignment.
+There are 5 assignment in total during the course with deadlines every
+week. They overlap slightly to allow for more flexibility in your
+scheduling, but think of them as weekly assignments. The assignments
+are handed out at the beginning of the week. They are handed out on
+this webpage, and handed in via Absalon.
 
-The assignments will be graded with points from 0 to 4 and it is not
+The assignments will be graded with points from 0 to 4. It is not
 possible to re-hand-in any of the assignments.
 
 Assignments are made to be solved in groups of preferably three
@@ -94,42 +95,6 @@ encourage you not to work alone. Groups cannot be larger than three
 students. Each group must make their own solutions and cannot share
 implementations and report with other. You may however discuss
 material and ideas.
-
-### A1
-
-* **Handout:** 21/11
-
-* **Handin deadline:** 1/12
-
-### A2
-
-* **Handout:** 28/11
-
-* **Handin deadline:** 8/12
-
-### A3
-
-* **Handout:** 5/12
-
-* **Handin deadline:** 15/12
-
-### A4
-
-* **Handout:** 12/12
-
-* **Handin deadline:** 22/12
-
-### A5
-
-* **Handout:** 19/12
-
-* **Handin deadline:** 5/1
-
-### A6
-
-* **Handout:** 2/1
-
-* **Handin deadline:** 12/1
 
 ### General assignment rules
 
@@ -222,9 +187,9 @@ involve practical programming and performance analysis of programs.
 ### Qualification
 
 To qualify for the exam you are required to achieve at least 50% of
-the total number of points in the *first five* assignments (that is, 10
-points at minimum). You also need to get *at least* one point in each
-of the first five assignment.
+the total number of points in the five assignments (that is, 10 points
+at minimum). You also need to get *at least* one point in each of the
+first five assignment.
 
 ### Date
 
