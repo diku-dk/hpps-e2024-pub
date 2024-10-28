@@ -27,10 +27,10 @@ mandatory assignments.
 **This course website** is used for handing out material.
 
 **Discord** can be used for asking questions. ([Invite
-link](https://discord.gg/CDDZCfx8zz)). You are not *required* or
-*expected* to use Discord. We continue to monitor the Absalon
-discussion forum, and course announcements are posted solely on
-Absalon.
+link](https://discord.gg/CDDZCfx8zz)). Remember to use the same name
+on Discord as on Absalon. You are not *required* or *expected* to use
+Discord. We continue to monitor the Absalon discussion forum, and
+course announcements are posted solely on Absalon.
 
 **Absalon** is used for handing in assignments and for course
 announcements.
