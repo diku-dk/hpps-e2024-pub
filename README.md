@@ -6,10 +6,9 @@ and the discussion forum remains on Absalon. While this website is a
 Git repository, you are not required or expected to use Git to
 interact with it, but feel free to do so if convenient for you.
 
-<img src="https://github.com/user-attachments/assets/2966d1a8-d741-43e2-a686-aeab2b01a510" align="right">
-
-
 ## Basics
+
+<img src="https://github.com/user-attachments/assets/2966d1a8-d741-43e2-a686-aeab2b01a510" align="right">
 
 HPPS takes place in block 2.  There are three kinds of in-person
 teaching activities: **lectures**, **exercises** and the **study
@@ -37,7 +36,6 @@ course announcements are posted solely on Absalon.
 
 **Absalon** is used for handing in assignments and for course
 announcements.
-
 ## Textbook
 
 The textbooks are as follows:
