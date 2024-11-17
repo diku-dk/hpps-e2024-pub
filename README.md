@@ -67,7 +67,7 @@ will have two TAs available.
 
 Exercises are held in the following four classrooms.
 
-* **Class 1:** *10:00-12:00*, 1-0-10 (DIKU), *15:00-17:00*: 1-0-10 (DIKU). TA: TBD
+* **Class 1:** *10:00-12:00*, 1-0-10 (DIKU), *15:00-17:00*: 1-0-10 (DIKU). TA: Carl Christian.
 
 * **Class 2:** *10:00-12:00*, 1-0-14 (DIKU), *15:00-17:00*: 1-0-14 (DIKU). TA: TBD
 
