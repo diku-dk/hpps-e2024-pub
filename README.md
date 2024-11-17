@@ -69,7 +69,7 @@ Exercises are held in the following four classrooms.
 
 * **Class 1:** *10:00-12:00*, 1-0-10 (DIKU), *15:00-17:00*: 1-0-10 (DIKU). TA: Carl Christian.
 
-* **Class 2:** *10:00-12:00*, 1-0-14 (DIKU), *15:00-17:00*: 1-0-14 (DIKU). TA: TBD
+* **Class 2:** *10:00-12:00*, 1-0-14 (DIKU), *15:00-17:00*: 1-0-14 (DIKU). TA: Rasmus Pallisgaard.
 
 * **Class 3:** *10:00-12:00*, Auditorium Syd (NEXS), *15:00-17:00*: Auditorium Syd (NEXS). TA: Alexander Vind.
 
