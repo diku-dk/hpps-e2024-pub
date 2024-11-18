@@ -73,7 +73,7 @@ Exercises are held in the following four classrooms.
 
 * **Class 3:** *10:00-12:00*, Auditorium Syd (NEXS), *15:00-17:00*: Auditorium Syd (NEXS). TA: Alexander Vind.
 
-* **Class 4:** *10:00-12:00*, 4-0-10 (Biocenter), *15:00-17:00*: 4-0-10 (Biocenter). TA: TBD.
+* **Class 4:** *10:00-12:00*, 4-0-10 (Biocenter), *15:00-17:00*: 4-0-10 (Biocenter). TA: Michael Ghandforoush.
 
 ### Friday
 
