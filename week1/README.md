@@ -2,7 +2,7 @@
 
 ## Slides
 
-TBA
+* [Monday](1a.pdf)
 
 ## Videos
 
