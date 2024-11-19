@@ -97,6 +97,8 @@ students. Each group must make their own solutions and cannot share
 implementations and report with other. You may however discuss
 material and ideas.
 
+**Do not store your assignments in public GitHub repositories.**
+
 ### General assignment rules
 
 The following rules apply to all assignments. They are intended to
