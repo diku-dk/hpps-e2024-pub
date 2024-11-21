@@ -2,7 +2,8 @@
 
 ## Slides
 
-* [Monday](1a.pdf)
+* [Tuesday](1a.pdf)
+* [Thursday](1b.pdf)
 
 ## Videos
 
