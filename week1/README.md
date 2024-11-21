@@ -133,7 +133,7 @@ foo: foo.c
 
 **Beware**: the leading whitespace *must* be a single tab character,
 *not* multiple spaces. If you transcribe it by hand, you may enter the
-wrong invisible character (this is not a prank; computers really are
+wrong invisible character (this is not a joke; computers really are
 like this).
 
 Now, to compile `foo`, run `make foo`. For example:
@@ -143,7 +143,10 @@ $ make mynameis
 ```
 
 There are ways to automate parts of this, but we recommend being
-explicit until you get a firm grasp on what `make` does.
+explicit until you get a firm grasp on what `make` does. The
+`Makefile`s given to you in HPPS will generally be quite simple.
+Understanding the subtle intricacies of `make` is not part of the
+course learning goals.
 
 In the following, we colloquially use "print" as slang for writing to
 standard output.
