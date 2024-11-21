@@ -108,11 +108,10 @@ re-run the `gcc` command after making a modification!
 
 ## C Exercises
 
-The main purpose of the following exercises is to give you more
-experience with programming in C, as well as prepare you for A1 (the
-first mandatory assignment). They mostly consist of setting up a
-working C development environment (compiler, editor), which you will
-need today.
+The main purpose of the following exercises is to give you experience
+with programming in C, as well as prepare you for A1 (the first
+mandatory assignment). They mostly consist of setting up a working C
+development environment (compiler, editor), which you will need today.
 
 For the coding exercises, you should use `make` to build your
 programs. To parametrize `make` to build with all the necessary
