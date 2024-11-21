@@ -284,7 +284,7 @@ For the purpose of this exercise (and A1), a test program is a program
 that uses the facilities exposed by a library (here `bits.h`).  When
 run, it calls each function in the library, compares the obtained
 result with the expected result, and complains loudly if there is a
-discrepancy.  Conventionally, if a test program produces no output,
+discrepancy.  By convention, if a test program produces no output,
 then the test is assumed to have succeeded.  Extend `test_bits.c` to
 test all of the functions you added to `bits.h`.
 
