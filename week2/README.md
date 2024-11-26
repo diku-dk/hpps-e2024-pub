@@ -18,6 +18,10 @@ Thursday:
 * [Makefiles](https://sid.erda.dk/share_redirect/f8RgVGzlET/make.mp4)
 * [Using a debugger](https://www.youtube.com/watch?v=bWH-nL7v5F4)
 
+## Slides
+
+* [Tuesday](2a.pdf)
+
 ## Exercise: play with integers
 
 Here it is! The sequel to the [Integer representation
