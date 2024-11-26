@@ -1,14 +1,5 @@
 # Week 1 - C and Integers
 
-## Slides
-
-* [Tuesday](1a.pdf)
-* [Thursday](1b.pdf)
-
-## Videos
-
-* [Command line arguments](https://sid.erda.dk/share_redirect/f8RgVGzlET/argv.mp4)
-
 ## Suggested Reading
 
 Tuesday:
@@ -20,6 +11,15 @@ Thursday:
 
 * HPPS 2
 * JG 4-7
+
+## Videos
+
+* [Command line arguments](https://sid.erda.dk/share_redirect/f8RgVGzlET/argv.mp4)
+
+## Slides
+
+* [Tuesday](1a.pdf)
+* [Thursday](1b.pdf)
 
 ## Basic Unix Exercises
 
