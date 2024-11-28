@@ -22,6 +22,8 @@ Thursday:
 
 * [Tuesday](2a.pdf)
 
+* [Thursday](2b.pdf)
+
 ## Exercise: play with integers
 
 Here it is! The sequel to the [Integer representation
