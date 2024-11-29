@@ -203,3 +203,11 @@ Wednesday 12:00.
 
 Each week has an associated subdirectory here on GitHub that lists
 expected reading and relevant exercises.
+
+## AI Policy
+
+You are allowed to use AI-generated code and text in assignments and
+the exam, but you must *explicitly* indicate which parts have been
+generated this way, and which tool you have used. If you do not cite
+properly, then you are conducting academic dishonesty (i.e.,
+plagiarism), which is treated very seriously by the university.
