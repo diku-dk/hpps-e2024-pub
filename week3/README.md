@@ -19,6 +19,10 @@ Thursday:
 * [Linked lists (Makefiles)](https://sid.erda.dk/share_redirect/AjdMSpVIjr/videos/2-l-2/list-makefile.mp4)
 * [Arrays](https://sid.erda.dk/share_redirect/AjdMSpVIjr/videos/2-l-2/arrays.mp4)
 
+## Slides
+
+* [Tuesday](3a.pdf)
+
 ## Exercise: Simple benchmarking
 
 Implement the following simple programs in C and Python, and compare
