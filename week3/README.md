@@ -23,6 +23,8 @@ Thursday:
 
 * [Tuesday](3a.pdf)
 
+* [Thursday](3b.pdf)
+
 ## Exercise: Simple benchmarking
 
 Implement the following simple programs in C and Python, and compare
