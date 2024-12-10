@@ -30,6 +30,10 @@ examining. They are part of a free textbook available online
 the audio.  If this happens, download the video files and try another
 player.)
 
+## Slides
+
+* [Wednesday](4a.pdf)
+
 ## Exercises: Locality and Performance
 
 Based on exercises by: Michael Kirkedal Thomsen <kirkedal@acm.org>
