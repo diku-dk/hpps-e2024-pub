@@ -163,6 +163,10 @@ for debugging C programs.
 If you prefer an IDE, see the [VS Code installation and setup
 guide](vscode.md).
 
+### OpenMP on MacOS
+
+MacOS users will run into a problem by week 5 where they cannot run `gcc --fopenmp`. To solve this problem, check out [this guide](macos-openmp.md).
+
 ## People
 
 The teachers are
