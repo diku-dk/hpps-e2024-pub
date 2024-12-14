@@ -35,7 +35,7 @@ where you do not fully understand what it computes.
 
 [If you are using macOS, make sure to read this.](../macos-openmp.md)
 
-## Optimising [mandelbrot.c](openmp/src/mandelbrot.c)
+## Optimising [mandelbrot.c](openmp-handout/mandelbrot.c)
 
 You are given a fully functional *sequential* program that can render
 pretty pictures to an image file in the PPM format (which most
@@ -63,7 +63,7 @@ Optionally we can also provide an additional three options:
 8. The width of the part of the complex number field we wish to
    visualise.
 
-The [Makefile](openmp/src/Makefile) contains rules for running the program
+The [Makefile](openmp-handout/Makefile) contains rules for running the program
 with interesting inputs.  For example, `make preset0.ppm` produces
 [this image](preset0.png) (after manual conversion to PNG), and `make
 preset1.ppm` produces [this image](preset1.png).
