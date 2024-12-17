@@ -34,6 +34,8 @@ player.)
 
 * [Wednesday](4a.pdf)
 
+* [Thursday](4b.pdf)
+
 ## Exercises: Locality and Performance
 
 Based on exercises by: Michael Kirkedal Thomsen <kirkedal@acm.org>
