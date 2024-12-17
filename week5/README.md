@@ -16,9 +16,18 @@
 
 ## Videos
 
-* https://sid.erda.dk/share_redirect/CvnF08feFE
+* [Concurrent programming](https://sid.erda.dk/share_redirect/AjdMSpVIjr/videos/5-l-1/concurrent-programming.mp4) (less important)
 
-* https://sid.erda.dk/share_redirect/gudhWa7ZnT
+* [OpenMP](https://sid.erda.dk/share_redirect/AjdMSpVIjr/videos/5-l-2/openmp.mp4)
+
+* [Scaling](https://sid.erda.dk/share_redirect/AjdMSpVIjr/videos/5-l-2/scaling.mp4)
+
+* [Loop Dependency Analysis](https://sid.erda.dk/share_redirect/AjdMSpVIjr/videos/6-l-1/dependencies.mp4)
+
+* [Eliminating loop dependencies](https://sid.erda.dk/share_redirect/AjdMSpVIjr/videos/6-l-1/eliminating-dependencies.mp4)
+
+* [Loop interchange](https://sid.erda.dk/share_redirect/AjdMSpVIjr/videos/6-l-1/interchange.mp4)
+
 
 ## Exercises: parallel programming with OpenMP
 
