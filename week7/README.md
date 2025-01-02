@@ -1,5 +1,3 @@
-![header](header.png)
-
 # More Concurrency and Parallelism
 
 The following exercises are intended to further improve your skills
