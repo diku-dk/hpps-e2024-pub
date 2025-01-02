@@ -7,7 +7,6 @@
 * Thursday
 
   - HPPS - OpenMP - Parallel Partionining
-  - BOH 12.4 - 12.7
 
 ## Exercises: OpenMP thread ID hello world
 
