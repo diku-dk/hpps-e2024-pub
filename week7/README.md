@@ -15,9 +15,10 @@ In this exercise you will develop a sequential program that partitions
 an array of integers according to some predicate. Specifically, given
 an integer *k* indicating the number of partitions, the array will be
 reordered such that all elements that modulo *k* are equal to 0 come
-first, then those that modulo *k* are equal to 1, and so on. This can
-also be considered a sorting problem, but to aid the eventual
-parallelisation, that is not how we will handle it.
+first, then those that modulo *k* are equal to 1, and so on. Because
+we are going to discard the sizes of the partitions, this can also be
+considered a sorting problem, but to aid the eventual parallelisation,
+that is not how we will handle it.
 
 Our goal is to develop a "known good" sequential implementation,
 including facilities for timing and reading and writing input, which
@@ -62,6 +63,7 @@ int main(void) {
   int* arr = read_ints(&n);
 
   write_ints(n, arr);
+  free(arr);
 }
 ```
 
@@ -74,6 +76,13 @@ $ echo 1 2 3 | ./partition-seq
 1
 2
 3
+```
+
+If we put some numbers in a file `input` we can also write the
+partitioned numbers to an array `output` as follows:
+
+```
+$ ./partition-seq < input > output
 ```
 
 #### Implementing `read_ints()`
@@ -146,13 +155,12 @@ void partition(int n, int* arr, int k) {
 }
 ```
 
-Then insert a call `partition(n, arr, 10);` in between the calls to
-`read_ints()` and `write_ints()`. Ensure that the program still works
-as expected.
+* Insert a call `partition(n, arr, 10);` in between the calls to
+  `read_ints()` and `write_ints()`. Ensure that the program still
+  works as expected.
 
-Now we will actually implement `partition()`. It must reorder the
-elements of `arr` based on their remainder when divided by `k` as
-discussed above.
+* Implement `partition()`. It must reorder the elements of `arr` based
+  on their remainder when divided by `k` as discussed above.
 
 The easiest way to implement `partition()` is to create `k` arrays
 each of size `n`, tracking how many elements have been written to
@@ -162,4 +170,56 @@ to `arr`.
 
 [Solution here.](solutions/partition-seq.c)
 
-### Timing and validation
+### Timing
+
+We can use command line tools like `time` and `hyperfine` to measure
+the performance of our programs. However, for something like
+partitioning, reading and writing the input and output from files is
+likely more expensive than actually performing the computation. This
+makes it difficult to measure the impact of optimisations. In real
+applications, the input would likely already be in memory. To simulate
+this usage, we add timing instrumentation to `partition-seq.c` itself.
+
+* Modify the program to call `seconds()` before and after
+  `partition()` and printing (to stderr) the runtime in seconds.
+
+<details>
+<summary>Open this to see the solution</summary>
+
+```C
+  double bef = seconds();
+  partition(n, arr, 10);
+  double aft = seconds();
+  fprintf(stderr, "Runtime: %f\n", aft-bef);
+```
+</details>
+
+To obtain more robust measurements, it is common to run the function
+of interest several times, and printing the average runtime.
+
+* Modify `partition-seq.c` to run `partition()` several times (say,
+  10) and report the average runtime. Note that since `partition()`
+  modifies its input, you will have to store the original input
+  somewhere so you can reconstruct it before each application of
+  `partition()`. The time taken for this copying should not be
+  measured.
+
+<details>
+<summary>Open this to see the solution</summary>
+
+```C
+  int *orig = malloc(n * sizeof(int));
+  memcpy(orig, arr, n * sizeof(int));
+
+  double elapsed = 0;
+  for (int i = 0; i < runs; i++) {
+    memcpy(arr, orig, n * sizeof(int));
+    double bef = seconds();
+    partition(n, arr, 10);
+    double aft = seconds();
+    elapsed += aft - bef;
+  }
+  fprintf(stderr, "Runtime (mean of %d): %f\n", runs, elapsed/runs);
+```
+
+</details>

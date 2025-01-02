@@ -31,7 +31,23 @@ int main(void) {
   int n;
   int* arr = read_ints(&n);
 
-  //  partition(n, arr, 10);
+  int runs = 10;
+
+  int *orig = malloc(n * sizeof(int));
+  memcpy(orig, arr, n * sizeof(int));
+
+  double elapsed = 0;
+  for (int i = 0; i < runs; i++) {
+    memcpy(arr, orig, n * sizeof(int));
+    double bef = seconds();
+    partition(n, arr, 10);
+    double aft = seconds();
+    elapsed += aft - bef;
+  }
+  fprintf(stderr, "Runtime (mean of %d): %f\n", runs, elapsed/runs);
 
   write_ints(n, arr);
+
+  free(arr);
+  free(orig);
 }
