@@ -200,8 +200,7 @@ first five assignment.
 
 ### Date
 
-**Tentative:** The exam will likely be held in week 3, Monday 9:00 to
-Wednesday 12:00.
+The exam is held from the 13th of January to the 16th of January.
 
 ## Course plan
 
