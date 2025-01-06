@@ -200,7 +200,8 @@ first five assignment.
 
 ### Date
 
-The exam is held from the 13th of January to the 16th of January.
+The exam is held from the 13th of January 8:00 to the 16th of January
+20:00.
 
 ## Course plan
 
