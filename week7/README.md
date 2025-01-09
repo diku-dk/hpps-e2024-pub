@@ -7,6 +7,12 @@ with parallel programming in C.
 
 Nothing new.
 
+## Slides
+
+* [7b.pdf](7b.pdf)
+
+* [Epilogue](final.pdf)
+
 ## Exercise: Creating a baseline
 
 In this exercise you will develop a sequential program that partitions
