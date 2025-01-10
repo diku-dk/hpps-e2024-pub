@@ -57,10 +57,8 @@ void partition(int n, int* arr, int k) {
   for (int l = 1; l < k; l++) {
     offsets[l] = offsets[l-1];
     for (int t = 0; t < P; t++) {
-      int begin = thread_parts_offsets[t][l];
-      int end = l == k-1
-        ? thread_parts_size[t]
-        : thread_parts_offsets[t][l+1];
+      int begin = thread_parts_offsets[t][l-1];
+      int end = thread_parts_offsets[t][l];
       offsets[l] += (end-begin);
     }
   }
